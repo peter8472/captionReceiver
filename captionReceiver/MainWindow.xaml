@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:captionReceiver"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
+        Title="MainWindow" Height="650" Width="725">
+    
         
-    </Grid>
+
+        <TextBox x:Name="textBox" TextWrapping="Wrap"
+                 Text="TextBox" VerticalScrollBarVisibility="Visible" 
+                 FontSize="20" Margin="0,-2,0,2"/>
+
+
+    
 </Window>
